@@ -1,0 +1,51 @@
+*{margin:5px;
+
+padding: 1%;
+}
+html
+{font-family:unset;
+background: rgb(116, 61, 17);
+color: rgb(3, 37, 3);
+height:150ch;
+margin-top: auto;
+margin-bottom:auto;
+margin-left: auto;
+margin-right: auto;
+}
+.nave
+{
+    background-image: url("./img/baner navegacion.jpg") ;
+    display:inline-block;
+    font: 1em sans-serif;
+    color: white;
+    width: 88vw;
+    margin-top: 50px;
+    margin-left: 2vw;
+}
+.nave ul
+{
+    list-style: none;
+    text-align: center;
+}
+.nave ul li
+{
+    display: inline-block;
+}
+.nave ul li a
+{
+    text-decoration:dotted;
+    display: block;
+    padding: 15px;
+    color: white;
+}
+.nave li a:hover
+{
+    background: black;
+}
+.imagenes
+{
+    grid: 20px;
+    display: flexbox;
+    padding: 1ch;
+    margin-top: 2ch;
+}
